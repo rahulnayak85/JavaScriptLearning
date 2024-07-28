@@ -12,4 +12,4 @@ Variables are used in three different areas. First, for declaring flags and coun
 
 ## Printing an array
 
-To print the array, another for loop is used where each element of the array is added to a string while concatenating it with a new line to provide the right preesentation. 
+To print the array, another for loop is used where each element of the array is added to a string while concatenating it with a new line to provide the right preesentation. The string is concatenated with itself on every iteration as well.
