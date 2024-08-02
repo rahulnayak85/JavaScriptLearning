@@ -1,6 +1,6 @@
 let rows = []
 inverted = true;
-const count = 8;
+const count = 9;
 
 let character = "*"
 
