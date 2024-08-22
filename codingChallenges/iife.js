@@ -1,0 +1,1 @@
+(function (l,w) {console.log(l*w)})(10,5);
