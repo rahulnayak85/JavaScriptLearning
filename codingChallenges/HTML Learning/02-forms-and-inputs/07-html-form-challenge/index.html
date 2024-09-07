@@ -6,6 +6,95 @@
     <title>HTML & CSS Sandbox</title>
   </head>
   <body>
-    <h1>HTML & CSS Sandbox - HTML Form Challenge</h1>
+    <h1>Apartment Search</h1>
+    <form action="POST">
+      <div>
+        <label for="location">Location</label>
+        <input type="text" name="location" id="location" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="monthlyPrice">Monthly Price</label>
+        <input
+          type="range"
+          name="monthlyPrice"
+          id="monthlyPrice"
+          min="500"
+          max="2000"
+          step="100"
+          list="monthlyPriceRanges"
+        />
+        <datalist id="monthlyPriceRanges">
+          <option value="500"></option>
+          <option value="600"></option>
+          <option value="700"></option>
+          <option value="800"></option>
+          <option value="900"></option>
+          <option value="1000"></option>
+          <option value="1100"></option>
+          <option value="1200"></option>
+          <option value="1300"></option>
+          <option value="1400"></option>
+          <option value="1500"></option>
+          <option value="1600"></option>
+          <option value="1700"></option>
+          <option value="1800"></option>
+          <option value="1900"></option>
+          <option value="2000"></option>
+        </datalist>
+      </div>
+
+      <br />
+
+      <div>
+        <label for="numberOfBedrooms">Number of Bedrooms</label>
+        <input
+          type="number"
+          name="numberOfBedrooms"
+          id="numberOfBedrooms"
+          min="1"
+          max="5"
+        />
+      </div>
+      <br>
+      <br>
+      <div></div>
+        <label for="numberOfBathrooms">Number of Bathrooms</label>
+        <input
+          type="number"
+          name="numberOfBathrooms"
+          id="numberOfBathrooms"
+          min="1"
+          max="5"
+        />
+      </div>
+
+      <br>
+      <br>
+      <div>
+        <fieldset>
+          <legend>Pets Allowed?</legend>
+          <input type="checkbox" name="petsAllowedYes" id="petsAllowedYes">
+          <label for="petsAllowedYes">Yes</label>
+          <input type="checkbox" name="petsAllowedNo" id="petsAllowedNo">
+          <label for="petsAllowedNo">No</label>
+        </fieldset>
+      </div>
+      <br><br>
+      <div>
+        <fieldset>
+          <legend>Date Availability</legend>
+          <label for="dateAvailability">Preferred move-in date</label>
+          <input type="date" name="dateAvailability" id="dateAvailability">
+        </fieldset>
+      </div>
+      <br><br>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+
+    </form>
   </body>
 </html>
